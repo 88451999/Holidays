@@ -3,8 +3,6 @@ library(tidyverse)
 library(httr)
 library(jsonlite)
 
-setwd("/tmp/testg/Holidays/")
-
 # Function to create a data frame of Holidays 
 # Parameters:
 #   from_year     starting year to get
@@ -20,7 +18,7 @@ setwd("/tmp/testg/Holidays/")
 Holidays <- function(from_year = 2019, to_year = 2019, country = "US") {
   
   calendarific_url <- "https://calendarific.com/api/v2/holidays?"
-  api_key <- "a24180e5070fcaa9029480b19f51cbe67b3699f7"
+  api_key <- "See me if you want to use Key"
   
   hols_colNames <- c("name", "description", "date", "locations", "type")
   

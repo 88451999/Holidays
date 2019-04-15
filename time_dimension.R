@@ -3,8 +3,6 @@ library(tidyverse)
 library(httr)
 library(jsonlite)
 
-setwd("/tmp/testg/Holidays/")
-
 # Function to create a data frame of all weeks in the year
 # Parameters :
 #   Year          : Year to be generated
